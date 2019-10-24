@@ -10,6 +10,7 @@
 
 #include <stddef.h>
 #include <stdbool.h>
+#include "driver/gpio.h"
 
 //Hardware id
 extern const char BOARD_ID[];
@@ -37,6 +38,7 @@ extern const char BOARD_VERSION[];
 #define GND2			1001
 #define GPIO15			15
 #define GPIO2			2
+#define GPIO0			0
 #define GPIO4			4
 #define GPIO16			16
 #define GPIO17			17
@@ -48,6 +50,7 @@ extern const char BOARD_VERSION[];
 #define GPIO1			1
 #define GPIO22			22
 #define GPIO23			23
+
 
 //Number of pins that available for using
 #define BOARD_TOTAL_NUMBER_OF_PINS	30
