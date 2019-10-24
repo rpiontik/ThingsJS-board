@@ -53,7 +53,7 @@ extern const char BOARD_VERSION[];
 
 
 //Number of pins that available for using
-#define BOARD_TOTAL_NUMBER_OF_PINS	30
+#define BOARD_TOTAL_NUMBER_OF_PINS	31
 
 //Definition of pin on board
 struct board_pin {
