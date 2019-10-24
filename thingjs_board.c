@@ -39,6 +39,7 @@ const struct board_pin	BOARD_PINS_MAP[BOARD_TOTAL_NUMBER_OF_PINS] = {
 		{ .id = GPIO16,	.available = true,	.name = "GPIO16"},
 		{ .id = GPIO4,	.available = true,	.name = "GPIO4"},
 		{ .id = GPIO2,	.available = true,	.name = "GPIO2"},
+        { .id = GPIO0,	.available = true,	.name = "GPIO0"},
 		{ .id = GPIO15,	.available = true,	.name = "GPIO15"},
 		{ .id = GND2,	.available = false,	.name = "GND"},
 		{ .id = V3V3,	.available = false,	.name = "3V3"}
