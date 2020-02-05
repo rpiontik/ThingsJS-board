@@ -55,7 +55,7 @@ extern const char BOARD_VERSION[];
 #define GPIO23			23
 
 //Virtual resources
-#define RES_TIMER		10001
+#define RES_VIRTUAL		10000
 
 
 //Number of pins that available for using

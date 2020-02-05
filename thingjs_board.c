@@ -46,5 +46,5 @@ const struct board_pin	BOARD_PINS_MAP[BOARD_TOTAL_NUMBER_OF_PINS] = {
 		{ .id = V3V3,	.limit = RES_LIMIT_UNAVAILABLE,	.name = "3V3"},
 
 		//VIRTUAL RESOURCES
-        { .id = RES_TIMER,	.limit = RES_LIMIT_INFINITY,	.name = "TIMERS"},
+        { .id = RES_VIRTUAL,    .limit = RES_LIMIT_INFINITY,	.name = "VIRTUAL"},
 };
