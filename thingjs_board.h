@@ -55,8 +55,8 @@ extern const char BOARD_VERSION[];
 #define GPIO23			23
 
 //Core resource
-#define RES_LEDC_1		5001
-#define RES_LEDC_2		5002
+#define RES_LEDC_0		5001
+#define RES_LEDC_1		5002
 //Virtual resources
 #define RES_VIRTUAL		10000
 
