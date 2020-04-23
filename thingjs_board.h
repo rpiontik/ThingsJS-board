@@ -54,12 +54,15 @@ extern const char BOARD_VERSION[];
 #define GPIO22			22
 #define GPIO23			23
 
+//Core resource
+#define RES_LEDC_0		5001
+#define RES_LEDC_1		5002
 //Virtual resources
-#define RES_TIMER		10001
+#define RES_VIRTUAL		10000
 
 
 //Number of pins that available for using
-#define BOARD_TOTAL_NUMBER_OF_PINS	32
+#define BOARD_TOTAL_NUMBER_OF_PINS	34
 
 //Definition of pin on board
 struct board_pin {
