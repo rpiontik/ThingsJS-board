@@ -16,6 +16,9 @@
 extern const char BOARD_ID[];
 extern const char BOARD_VERSION[];
 
+#define RES_LIMIT_UNAVAILABLE   0
+#define RES_LIMIT_INFINITY      -1
+
 //PINS
 //		name			id
 #define VIN				1004
@@ -51,14 +54,20 @@ extern const char BOARD_VERSION[];
 #define GPIO22			22
 #define GPIO23			23
 
+//Core resource
+#define RES_LEDC_0		5001
+#define RES_LEDC_1		5002
+//Virtual resources
+#define RES_VIRTUAL		10000
+
 
 //Number of pins that available for using
-#define BOARD_TOTAL_NUMBER_OF_PINS	31
+#define BOARD_TOTAL_NUMBER_OF_PINS	34
 
 //Definition of pin on board
 struct board_pin {
 	int id;				//Internal Id of pin
-	bool available;		//True if pin is available to use
+	long limit;         //Limit count of bind 0 - unavailable, (-1) - infinity
 	char * name;		//Human name of pin
 };
 
