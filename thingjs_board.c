@@ -49,6 +49,11 @@ const struct board_pin	BOARD_PINS_MAP[BOARD_TOTAL_NUMBER_OF_PINS] = {
         { .id = RES_LEDC_0,    .limit = 1,	.name = "LEDC0"},
         { .id = RES_LEDC_1,    .limit = 1,	.name = "LEDC1"},
 
+        //UARTs
+        { .id = RES_UART_0,    .limit = 1,	.name = "UART0"},
+        { .id = RES_UART_1,    .limit = 1,	.name = "UART1"},
+        { .id = RES_UART_2,    .limit = 1,	.name = "UART2"},
+
 		//VIRTUAL RESOURCES
         { .id = RES_VIRTUAL,    .limit = RES_LIMIT_INFINITY,	.name = "VIRTUAL"},
 };
