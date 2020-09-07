@@ -57,12 +57,18 @@ extern const char BOARD_VERSION[];
 //Core resource
 #define RES_LEDC_0		5001
 #define RES_LEDC_1		5002
+
+//UARTs
+#define RES_UART_0		6000
+#define RES_UART_1		6001
+#define RES_UART_2		6002
+
 //Virtual resources
 #define RES_VIRTUAL		10000
 
 
 //Number of pins that available for using
-#define BOARD_TOTAL_NUMBER_OF_PINS	34
+#define BOARD_TOTAL_NUMBER_OF_PINS	37
 
 //Definition of pin on board
 struct board_pin {
