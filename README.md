@@ -9,8 +9,10 @@ git submodule add git@github.com:rpiontik/ThingsJS-boards.git components/thingjs
 # Requirements
 None
 
-# Licensing
+# Thankful
+* [JetBrains](https://www.jetbrains.com/) for OpenSource license.
 
+# Licensing
 ThingsJS is released under
 [GNU GPL v.2](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 open source license.
