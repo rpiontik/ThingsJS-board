@@ -1,7 +1,7 @@
 # Overview
 The repository is module of ThingJS open source IoT platform. 
 It contains the configurations of supported devices.
-You can make custom board for you case. 
+You can make custom board for you case. my  
 
 # Install
 git submodule add git@github.com:rpiontik/ThingsJS-boards.git components/thingjs_boards
