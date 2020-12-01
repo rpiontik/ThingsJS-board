@@ -49,6 +49,16 @@ const struct board_pin	BOARD_PINS_MAP[BOARD_TOTAL_NUMBER_OF_PINS] = {
         { .id = RES_LEDC_0,    .limit = 1,	.name = "LEDC0"},
         { .id = RES_LEDC_1,    .limit = 1,	.name = "LEDC1"},
 
+        //PCNT RESOURCES
+        { .id = RES_PCNT_0,    .limit = 1,	.name = "PCNT0"},
+        { .id = RES_PCNT_1,    .limit = 1,	.name = "PCNT1"},
+        { .id = RES_PCNT_2,    .limit = 1,	.name = "PCNT2"},
+        { .id = RES_PCNT_3,    .limit = 1,	.name = "PCNT3"},
+        { .id = RES_PCNT_4,    .limit = 1,	.name = "PCNT4"},
+        { .id = RES_PCNT_5,    .limit = 1,	.name = "PCNT5"},
+        { .id = RES_PCNT_6,    .limit = 1,	.name = "PCNT6"},
+        { .id = RES_PCNT_7,    .limit = 1,	.name = "PCNT7"},
+
         //UARTs
         { .id = RES_UART_0,    .limit = 1,	.name = "UART0"},
         { .id = RES_UART_1,    .limit = 1,	.name = "UART1"},
