@@ -7,8 +7,8 @@
 
 #include "thingjs_board.h"
 
-const char BOARD_ID[]		= "ESP32_CORE_BOARD";
-const char BOARD_VERSION[]	= "V2";
+const char BOARD_ID[]		= "Fenist";
+const char BOARD_VERSION[]	= "V5I1";
 
 const struct board_pin	BOARD_PINS_MAP[BOARD_TOTAL_NUMBER_OF_PINS] = {
         //PINS
