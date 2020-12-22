@@ -11,7 +11,7 @@ const char BOARD_ID[]		= "ESP32_CORE_BOARD";
 const char BOARD_VERSION[]	= "V2";
 
 const struct board_pin	BOARD_PINS_MAP[BOARD_TOTAL_NUMBER_OF_PINS] = {
-        //PINS
+    //PINS
 		{ .id = VIN,	.limit = RES_LIMIT_UNAVAILABLE,	.name = "VIN"},
 		{ .id = GND1,	.limit = RES_LIMIT_UNAVAILABLE,	.name = "GND"},
 		{ .id = GPIO13,	.limit = 1, .name = "GPIO13"},
@@ -54,10 +54,6 @@ const struct board_pin	BOARD_PINS_MAP[BOARD_TOTAL_NUMBER_OF_PINS] = {
         { .id = RES_PCNT_1,    .limit = 1,	.name = "PCNT1"},
         { .id = RES_PCNT_2,    .limit = 1,	.name = "PCNT2"},
         { .id = RES_PCNT_3,    .limit = 1,	.name = "PCNT3"},
-        { .id = RES_PCNT_4,    .limit = 1,	.name = "PCNT4"},
-        { .id = RES_PCNT_5,    .limit = 1,	.name = "PCNT5"},
-        { .id = RES_PCNT_6,    .limit = 1,	.name = "PCNT6"},
-        { .id = RES_PCNT_7,    .limit = 1,	.name = "PCNT7"},
 
         //UARTs
         { .id = RES_UART_0,    .limit = 1,	.name = "UART0"},
