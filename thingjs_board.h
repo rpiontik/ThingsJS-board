@@ -63,10 +63,6 @@ extern const char BOARD_VERSION[];
 #define RES_PCNT_1      8449 // 0x2101
 #define RES_PCNT_2      8450 // 0x2102
 #define RES_PCNT_3      8451 // 0x2103
-#define RES_PCNT_4      8452 // 0x2104
-#define RES_PCNT_5      8453 // 0x2105
-#define RES_PCNT_6      8454 // 0x2106
-#define RES_PCNT_7      8455 // 0x2107
 
 //UARTs
 #define RES_UART_0		6000
